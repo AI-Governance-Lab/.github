@@ -22,6 +22,7 @@ We curate reproducible patterns that accelerate responsible AI adoption:
 | Monitoring | k8s-evidently-demo |
 | Experiment Tracking | k8s-mlflow-rancher-desktop, k8s-mlflow-demo |
 | Serving | k8s-ollama-fastapi-demo |
+| GCP / Vertex AI | vertex-ai-first-test |
 
 ## Architecture Pillars
 1. Governance by design (auditability, provenance)
