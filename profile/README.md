@@ -22,7 +22,7 @@ We curate reproducible patterns that accelerate responsible AI adoption:
 | Experiment Tracking | k8s-mlflow-rancher-desktop, k8s-mlflow-demo |
 | Serving | k8s-ollama-fastapi-demo |
 | GCP / Vertex AI | vertex-ai-cloudrun-demo |
-| GCP / Vertex AI | vertex-pipeline-demo |
+| GCP / Vertex AI | vertex-ai-pipeline-demo |
 
 
 
