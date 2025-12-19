@@ -18,11 +18,10 @@ We curate reproducible patterns that accelerate responsible AI adoption:
 | ---- | ------ |
 | Agent Infra & RAG | k8s-ai-agent-multicloud-rag-iac, k8s-ai-agents-demo |
 | SAP / PowerVS | ai-agent-s4hana-powervs-deployer |
-| Base Images | docker_images_for_ai_agents |
 | Monitoring | k8s-evidently-demo |
 | Experiment Tracking | k8s-mlflow-rancher-desktop, k8s-mlflow-demo |
 | Serving | k8s-ollama-fastapi-demo |
-| GCP / Vertex AI | vertex-ai-first-test |
+| GCP / Vertex AI | vertex-ai-cloudrun-demo |
 
 ## Architecture Pillars
 1. Governance by design (auditability, provenance)
