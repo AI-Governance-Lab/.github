@@ -6,6 +6,7 @@ Open-source building blocks for end‑to‑end AI governance, secure AI agent de
 We curate reproducible patterns that accelerate responsible AI adoption:
 - Multi‑cloud & hybrid AI agents (PowerVS, Kubernetes, on‑prem)
 - Retrieval Augmented Generation (Qdrant + orchestration)
+- Vertex AI integration (GCP managed AI platform for training, deployment & pipelines)
 - Secure image supply chain & hardened base containers
 - Infrastructure as Code & composable Helm charts
 - ML experiment tracking (MLflow) & lineage
