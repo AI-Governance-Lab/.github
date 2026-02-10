@@ -18,7 +18,7 @@ We curate reproducible patterns that accelerate responsible AI adoption:
 | Area | Repos |
 | ---- | ------ |
 | Agent Infra & RAG | k8s-ai-agent-multicloud-rag-iac, k8s-ai-agents-demo |
-| SAP / PowerVS | ai-agent-s4hana-powervs-deployer |
+| SAP / PowerVS | ai-agent-s4hana-openshift |
 | Monitoring | k8s-evidently-demo |
 | Experiment Tracking | k8s-mlflow-rancher-desktop, k8s-mlflow-demo |
 | Serving | k8s-ollama-fastapi-demo |
