@@ -173,4 +173,4 @@ All repositories are licensed under **Apache License 2.0** for educational and p
 
 ---
 
-**Personal Portfolio by Marius Ropota** | Learning through open-source collaboration
+**Personal Portfolio by Marian Ropota** | Learning through open-source collaboration
