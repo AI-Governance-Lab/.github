@@ -24,6 +24,8 @@ We curate reproducible patterns that accelerate responsible AI adoption:
 | Serving | k8s-ollama-fastapi-demo |
 | GCP / Vertex AI | vertex-ai-cloudrun-demo |
 | GCP / Vertex AI | vertex-ai-pipeline-demo |
+| GCP / Vertex AI | vertex-ai-agentbuilder-demo |
+
 
 
 
