@@ -79,9 +79,6 @@ Containerized AI inference with FastAPI and Ollama for local LLM deployment, rea
 
 ---
 
-
-
-
 ## Core Principles
 
 **🏛️ Governance by Design**  
