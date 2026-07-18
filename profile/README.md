@@ -123,8 +123,11 @@ Composable Infrastructure-as-Code and Helm charts for flexible deployment
 
 ## Use Cases by Industry
 
+**🛡️ Cybersecurity & Defense**  
+Quantum-resistant architecture patterns, zero-day threat analysis, and secure environments ensuring zero data leakage.
+
 **🏦 Financial Services**  
-Compliant AI agents with full audit trails for regulatory requirements
+Compliant AI agents with full audit trails for regulatory requirements (SEC/FINRA), fraud detection, and portfolio optimization.
 
 **🏭 Manufacturing & SAP**  
 Automated ERP deployments with AI-powered infrastructure orchestration
