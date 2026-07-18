@@ -1,8 +1,10 @@
 # AI Governance Lab
 
-**Personal Learning Portfolio - AI Governance and Multi-Cloud Deployment Patterns**
+**AI Governance Lab** is an open-source research and engineering portfolio dedicated to building secure, compliant, and scalable Enterprise AI systems. We explore advanced **MLOps**, **LLMOps**, and **Multi-Cloud Deployment Patterns** with a strict focus on **AI Governance**, **LLM-as-a-Judge evaluation**, and regulatory compliance (GDPR, EU AI Act, SOC2, HIPAA).
 
-Open-source experiments and learning projects exploring secure, compliant, and scalable AI systems across multi-cloud environments. This portfolio documents my journey in understanding enterprise AI deployment, governance, and MLOps practices.
+From high-throughput **vLLM inference on NVIDIA GPUs** to **Retrieval-Augmented Generation (RAG)** and **Quantum-Classical Hybrid Orchestration**, this lab documents production-ready architecture patterns across AWS, Azure, Google Cloud (Vertex AI), and IBM watsonx.
+
+*Keywords: AI Governance, MLOps, LLMOps, vLLM, NVIDIA A100/H100, LLM-as-a-Judge, Quantum AI, Enterprise AI Agents, RAG, Multi-Cloud AI, Compliance, GDPR, SOC2*
 
 ---
 
@@ -138,8 +140,9 @@ Multi-cloud AI platforms with centralized governance and monitoring
 ## Technology Stack
 
 **Cloud Platforms:** AWS, Azure, GCP, IBM Cloud  
+**Hardware & Compute:** NVIDIA DGX, A100/H100 GPUs, Cloud VMs  
 **Orchestration:** Kubernetes, OpenShift, Terraform, Helm  
-**AI/ML:** Vertex AI, IBM watsonx, OpenAI, Bedrock, Ollama  
+**AI/ML & Inference:** Vertex AI, IBM watsonx, OpenAI, Bedrock, vLLM, Ollama  
 **MLOps:** MLflow, Evidently AI, Prometheus, Grafana  
 **Languages:** Python, Docker, FastAPI  
 **Vector Stores:** Qdrant  
