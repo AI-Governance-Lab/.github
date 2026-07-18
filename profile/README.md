@@ -29,6 +29,10 @@ Open-source experiments and learning projects exploring secure, compliant, and s
 
 ### 🤖 AI Agent Projects
 
+**[governed-quantum-agents](https://github.com/AI-Governance-Lab/governed-quantum-agents)** - Venus: Governed Quantum Agents (GQA)  
+A governed, natural language interface to quantum-powered discovery. Translates natural language into quantum computations safely under an AI Governance framework.  
+*Technologies: Quantum Computing, Gemini, LiteLLM, Cirq, AI Governance*
+
 **[k8s-ai-agent-multicloud-rag-iac](https://github.com/AI-Governance-Lab/k8s-ai-agent-multicloud-rag-iac)** - Multi-Cloud RAG Agent  
 Production RAG-powered AI agent with custom document search and Infrastructure-as-Code deployment across AWS, Azure, GCP, and IBM Cloud. Includes FastAPI, Terraform, and Helm charts.  
 *Technologies: Kubernetes, Terraform, RAG, Bedrock, OpenAI, Helm*
