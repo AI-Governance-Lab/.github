@@ -1,58 +1,43 @@
-# AI Governance Lab
+# AI Governance Lab — Organization Profile Repository (`.github`)
 
-**AI Governance Lab** is an open-source research and engineering portfolio dedicated to building secure, compliant, and scalable Enterprise AI systems. We explore advanced **MLOps**, **LLMOps**, and **Multi-Cloud Deployment Patterns** with a strict focus on **AI Governance**, **LLM-as-a-Judge evaluation**, and regulatory compliance (GDPR, EU AI Act, SOC2, HIPAA).
+**AI Governance Lab** is an open-source architecture and engineering lab dedicated to building governed, compliant, and scalable Enterprise AI systems across hybrid and multi-cloud environments.
 
-From high-throughput **vLLM inference on NVIDIA GPUs** to **Retrieval-Augmented Generation (RAG)** and **Quantum-Classical Hybrid Orchestration**, this lab documents production-ready architecture patterns across AWS, Azure, Google Cloud (Vertex AI), and IBM watsonx.
+> 📌 **Public Organization Profile:** Rendered from [`profile/README.md`](profile/README.md) at **[https://github.com/AI-Governance-Lab](https://github.com/AI-Governance-Lab)**.
 
-*Keywords: AI Governance, MLOps, LLMOps, vLLM, NVIDIA A100/H100, LLM-as-a-Judge, Quantum AI, Enterprise AI Agents, RAG, Multi-Cloud AI, Compliance, GDPR, SOC2*
+## Architectural Scope
 
-## Scope
-
-- Multi‑cloud AI agents: reusable deployment patterns (PowerVS, Kubernetes, hybrid).
-- Retrieval Augmented Generation (RAG): infra + vector DB (Qdrant) + orchestration.
-- Secure container build & delivery: scripts and base images under `docker_images_for_ai_agents`.
-- Infrastructure as Code: Kubernetes clusters, Helm charts, IaC modules (`k8s-*`, `ai-agent-s4hana-powervs-deployer`).
-- MLOps & Experiment Tracking: MLflow demos (`k8s-mlflow-*`).
-- Model & Data Quality Monitoring: Evidently integration (`k8s-evidently-demo`).
-- High-throughput & lightweight model serving (`vLLM`, `k8s-ollama-fastapi-demo`).
-- Governance foundations: reproducibility, environment isolation, observability, policy readiness.
+- **Sovereign AI Hubs & LiteLLM Gateways:** Self-hosted Open WebUI, LiteLLM Proxy (`:4000`), Apache Tika OCR, cloud-offloaded RAG, and domain microservices (`private-enterprise-ai-hub`).
+- **High-Performance GPU Inference:** NVIDIA NIM, TensorRT-LLM, Triton, vLLM, and Ollama across GCP GPU VMs and K3s/Kubernetes (`nvidia-nim-enterprise-patterns`, `k8s-ollama-fastapi-demo`).
+- **Agentic Infrastructure Automation & Multi-Cloud RAG:** Qdrant vector search + guarded Terraform/Ansible execution on AWS EKS, Rancher, and IBM Red Hat OpenShift / PowerVS for SAP S/4HANA (`k8s-ai-agent-multicloud-rag-iac`, `s4hana-ai-agent-openshift`, `k8s-ai-agents-demo`).
+- **Quantum-Classical Hybrid Orchestration:** Natural-language-to-circuit compilation (Google Cirq / IBM Qiskit) governed by an independent LLM-as-a-Judge (`governed-quantum-agents`).
+- **Google Cloud / Vertex AI Patterns:** Agent Builder, Google ADK, Kubeflow/Vertex AI Pipelines, and serverless Cloud Run inference (`vertex-ai-agentbuilder-demo`, `vertex-ai-pipeline-demo`, `vertex-ai-cloudrun-demo`).
+- **Enterprise AI Evaluation, MLOps & Compliance:** Continuous drift monitoring with Evidently AI and experiment/prompt lineage with MLflow 3.x mapped to EU AI Act, NIST AI RMF, ISO/IEC 42001, GDPR, and SOC2 (`k8s-evidently-demo`, `k8s-mlfow-demo`, `k8s-mlflow-rancher-desktop`).
 
 ## Repository Families
 
-- ai-agent-s4hana-powervs-deployer: PowerVS + SAP integration deployment automation.
-- docker_images_for_ai_agents: Curated base images for governed AI workloads.
-- k8s-ai-agent-multicloud-rag-iac: RAG + agents infra as code.
-- k8s-ai-agents-demo: Reference agent scenarios.
-- k8s-evidently-demo: Monitoring & drift detection.
-- k8s-mlflow-rancher-desktop / k8s-mlfow-demo: Local & cluster MLflow patterns.
-- k8s-ollama-fastapi-demo: Lightweight model serving.
-
-## Principles
-
-1. Governance by design: traceability, versioning, auditability.
-2. Isolation & portability: multi-cloud ready artifacts.
-3. Observability: metrics, drift, lineage.
-4. Least privilege & supply chain hygiene.
-5. Modularity: composable Helm charts / IaC units.
-
-## Getting Started
-
-1. Pick a stack folder (e.g. `k8s-ai-agent-multicloud-rag-iac`).
-2. Review README in that folder for prerequisites.
-3. Build or pull the required base image from `docker_images_for_ai_agents`.
-4. Deploy via Helm / IaC.
-5. Extend with monitoring (Evidently) and tracking (MLflow).
-
-## Contributing
-
-- Open issues for enhancements.
-- Keep modules stateless & parameterized.
-- Provide architecture diagrams when adding new vertical capabilities.
+| Repository | Domain | Availability |
+| :--- | :--- | :--- |
+| `private-enterprise-ai-hub` | Self-Hosted Enterprise AI Hub, LiteLLM Gateway, Tika OCR & CAD Microservice | 🔒 Private (Public Release Soon) |
+| `nvidia-nim-enterprise-patterns` | NVIDIA NIM & TensorRT-LLM Inference Patterns (GCP GPU VMs & K3s/Helm) | 🔒 Private (Public Release Soon) |
+| `governed-quantum-agents` | Venus: Quantum-Classical Hybrid Orchestrator + LLM-as-a-Judge | 🌐 Public |
+| `k8s-ai-agent-multicloud-rag-iac` | Multi-Cloud RAG + Terraform Runner Agent (Rancher & AWS EKS) | 🌐 Public |
+| `s4hana-ai-agent-openshift` | Zero-Touch SAP S/4HANA Provisioning Agent (IBM ROKS, watsonx.ai, PowerVS) | 🌐 Public |
+| `k8s-ai-agents-demo` | Reference Kubernetes AI Agent Services (Qdrant, FastAPI, MLflow) | 🌐 Public |
+| `vertex-ai-agentbuilder-demo` | Google Vertex AI Agent Builder & Agent Development Kit (ADK) | 🌐 Public |
+| `vertex-ai-pipeline-demo` | Vertex AI Pipelines (Kubeflow v2) MLOps Orchestration | 🌐 Public |
+| `vertex-ai-cloudrun-demo` | Serverless Vertex AI Embeddings & Gemini Microservices on Cloud Run | 🌐 Public |
+| `k8s-evidently-demo` | Evidently AI Drift & Quality Monitoring on Kubernetes | 🌐 Public |
+| `k8s-mlfow-demo` | Production MLflow 3.x Cluster Stack (PostgreSQL + MinIO) | 🌐 Public |
+| `k8s-mlflow-rancher-desktop` | Local Developer MLflow 3.x Stack on Rancher Desktop (k3s) | 🌐 Public |
+| `k8s-ollama-fastapi-demo` | Lightweight Local LLM Serving with Ollama & FastAPI on Kubernetes | 🌐 Public |
 
 ## License
 
-Each subfolder contains its license; default is permissive OSS (see included LICENSE files).
+Default license is **Apache License 2.0** (see [`LICENSE`](LICENSE) and individual repositories).
 
 ---
 
-Maintained by the AI Governance Lab organization.
+## Maintainer
+
+**Marian Ropota** — *Hands-On AI/ML & Cloud Platform Architect*  
+🔗 [LinkedIn](https://www.linkedin.com/in/marian-rop) • 🏅 [Credly Certifications](https://www.credly.com/users/marian-ropota/badges/credly) • 🐙 [AI Governance Lab](https://github.com/AI-Governance-Lab)
