@@ -15,21 +15,21 @@
 
 ## Repository Families
 
-| Repository | Domain | Availability |
-| :--- | :--- | :--- |
-| `private-enterprise-ai-hub` | Self-Hosted Enterprise AI Hub, LiteLLM Gateway, Tika OCR & CAD Microservice | 🔒 Private (Public Release Soon) |
-| `nvidia-nim-enterprise-patterns` | NVIDIA NIM & TensorRT-LLM Inference Patterns (GCP GPU VMs & K3s/Helm) | 🔒 Private (Public Release Soon) |
-| `governed-quantum-agents` | Venus: Quantum-Classical Hybrid Orchestrator + LLM-as-a-Judge | 🌐 Public |
-| `k8s-ai-agent-multicloud-rag-iac` | Multi-Cloud RAG + Terraform Runner Agent (Rancher & AWS EKS) | 🌐 Public |
-| `s4hana-ai-agent-openshift` | Zero-Touch SAP S/4HANA Provisioning Agent (IBM ROKS, watsonx.ai, PowerVS) | 🌐 Public |
-| `k8s-ai-agents-demo` | Reference Kubernetes AI Agent Services (Qdrant, FastAPI, MLflow) | 🌐 Public |
-| `vertex-ai-agentbuilder-demo` | Google Vertex AI Agent Builder & Agent Development Kit (ADK) | 🌐 Public |
-| `vertex-ai-pipeline-demo` | Vertex AI Pipelines (Kubeflow v2) MLOps Orchestration | 🌐 Public |
-| `vertex-ai-cloudrun-demo` | Serverless Vertex AI Embeddings & Gemini Microservices on Cloud Run | 🌐 Public |
-| `k8s-evidently-demo` | Evidently AI Drift & Quality Monitoring on Kubernetes | 🌐 Public |
-| `k8s-mlfow-demo` | Production MLflow 3.x Cluster Stack (PostgreSQL + MinIO) | 🌐 Public |
-| `k8s-mlflow-rancher-desktop` | Local Developer MLflow 3.x Stack on Rancher Desktop (k3s) | 🌐 Public |
-| `k8s-ollama-fastapi-demo` | Lightweight Local LLM Serving with Ollama & FastAPI on Kubernetes | 🌐 Public |
+| Repository | Architectural Tier | Domain | Availability |
+| :--- | :--- | :--- | :--- |
+| **`governed-quantum-agents`** | 🌟 **2026 Flagship #1** | Venus v2.0: Governed Quantum Agents (Cirq + Qiskit + React 18 UI + GLM-5.2 Judge + K3s Helm) | 🌐 Public |
+| **`private-enterprise-ai-hub`** | 🌟 **2026 Flagship #2** | Sovereign Enterprise AI Hub, Dual LiteLLM Gateways (`:4000` & `:4001`), Tika OCR & CAD Microservice | 🌐 Public |
+| **`nvidia-nim-enterprise-patterns`** | 🌟 **2026 Flagship #3** | NVIDIA NIM, TensorRT-LLM & Triton GPU Inference Patterns (Terraform GCP MIG & K3s/Helm) | 🌐 Public |
+| `k8s-ai-agent-multicloud-rag-iac` | 🏛️ Foundational Track Record | Multi-Cloud RAG + Terraform Runner Agent (Rancher & AWS EKS) | 🌐 Public |
+| `s4hana-ai-agent-openshift` | 🏛️ Foundational Track Record | Zero-Touch SAP S/4HANA Provisioning Agent (IBM ROKS, watsonx.ai, PowerVS) | 🌐 Public |
+| `k8s-ai-agents-demo` | 🏛️ Foundational Track Record | Reference Kubernetes AI Agent Services (Qdrant, FastAPI, MLflow) | 🌐 Public |
+| `vertex-ai-agentbuilder-demo` | 🏛️ Foundational Track Record | Google Vertex AI Agent Builder & Agent Development Kit (ADK) | 🌐 Public |
+| `vertex-ai-pipeline-demo` | 🏛️ Foundational Track Record | Vertex AI Pipelines (Kubeflow v2) MLOps Orchestration | 🌐 Public |
+| `vertex-ai-cloudrun-demo` | 🏛️ Foundational Track Record | Serverless Vertex AI Embeddings & Gemini Microservices on Cloud Run | 🌐 Public |
+| `k8s-evidently-demo` | 🏛️ Foundational Track Record | Evidently AI Drift & Quality Monitoring on Kubernetes | 🌐 Public |
+| `k8s-mlfow-demo` | 🏛️ Foundational Track Record | Production MLflow 3.x Cluster Stack (PostgreSQL + MinIO) | 🌐 Public |
+| `k8s-mlflow-rancher-desktop` | 🏛️ Foundational Track Record | Local Developer MLflow 3.x Stack on Rancher Desktop (k3s) | 🌐 Public |
+| `k8s-ollama-fastapi-demo` | 🏛️ Foundational Track Record | Lightweight Local LLM Serving with Ollama & FastAPI on Kubernetes | 🌐 Public |
 
 ## License
 
