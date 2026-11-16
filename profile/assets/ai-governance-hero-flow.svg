@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 580" width="1280" height="580" role="img" aria-label="AI Governance Lab Architecture Flow">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060B16"/>
+      <stop offset="50%" stop-color="#0B1325"/>
+      <stop offset="100%" stop-color="#091020"/>
+    </linearGradient>
+    <linearGradient id="headerGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#10B981" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.20"/>
+    </linearGradient>
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D2329"/>
+      <stop offset="100%" stop-color="#091722"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#111C33"/>
+      <stop offset="100%" stop-color="#0C1527"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="38%" stop-color="#10B981"/>
+      <stop offset="72%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.45"/>
+    </pattern>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#38BDF8"/>
+    </marker>
+    <marker id="arrowEmerald" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#34D399"/>
+    </marker>
+    <marker id="arrowAmber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#FBBF24"/>
+    </marker>
+  </defs>
+
+  <!-- Outer Canvas & Subtle Blueprint Grid -->
+  <rect x="0" y="0" width="1280" height="580" rx="18" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1280" height="580" rx="18" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1278" height="578" rx="17" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Top Ambient Header Wash -->
+  <rect x="2" y="2" width="1276" height="124" rx="16" fill="url(#headerGlow)"/>
+  <line x1="36" y1="126" x2="1244" y2="126" stroke="url(#accentLine)" stroke-width="1.5" stroke-opacity="0.8"/>
+
+  <!-- Top-Left Identity & Title -->
+  <rect x="36" y="20" width="548" height="24" rx="12" fill="#0F172A" stroke="#10B981" stroke-width="1" stroke-opacity="0.7"/>
+  <circle cx="51" cy="32" r="4" fill="#10B981"/>
+  <text x="63" y="36" fill="#6EE7B7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.1">AI GOVERNANCE • PHARMA &amp; BIOMED GxP • AIOPS &amp; FINOPS ARCHITECTURE</text>
+
+  <text x="36" y="77" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="33" font-weight="800" letter-spacing="-0.4">AI Governance Lab</text>
+  <text x="338" y="75" fill="#38BDF8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">|  Enterprise Reference Ecosystem</text>
+
+  <text x="36" y="105" fill="#CBD5E1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400">Zero-Trust Application Governance Middleware, Regulated Life Sciences (FDA 21 CFR Part 11 / HIPAA) &amp; Sovereign GPU Platforms</text>
+
+  <!-- Top-Right Architect Badge Card -->
+  <rect x="876" y="18" width="368" height="90" rx="12" fill="#0B1324" stroke="#334155" stroke-width="1.2"/>
+  <rect x="876" y="18" width="5" height="90" rx="2.5" fill="#0EA5E9"/>
+  <text x="896" y="43" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700">Marian Ropota</text>
+  <rect x="1020" y="29" width="208" height="19" rx="9.5" fill="#0C2D48" stroke="#0EA5E9" stroke-width="0.8"/>
+  <text x="1124" y="42" text-anchor="middle" fill="#7DD3FC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="0.5">PRINCIPAL AI/ML ARCHITECT</text>
+  <text x="896" y="66" fill="#34D399" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">Focus: AI Governance • Pharma/BioMed • AIOps</text>
+  <text x="896" y="88" fill="#94A3B8" font-family="Consolas, Menlo, monospace" font-size="11">FastAPI • React 18 • LiteLLM • K3s/OpenShift • NIM</text>
+
+  <!-- STAGE 1: REGULATED & ENTERPRISE WORKLOADS -->
+  <rect x="36" y="144" width="256" height="342" rx="14" fill="url(#cardGrad)" stroke="#0EA5E9" stroke-width="1.2" stroke-opacity="0.65"/>
+  <rect x="36" y="144" width="256" height="36" rx="14" fill="#0C253F"/>
+  <text x="52" y="167" fill="#7DD3FC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.7">1. REGULATED &amp; DOMAIN APPS</text>
+
+  <rect x="50" y="194" width="228" height="84" rx="9" fill="#091222" stroke="#1E3A5F" stroke-width="1"/>
+  <text x="62" y="215" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Pharma &amp; BioMed R&amp;D (:30089)</text>
+  <text x="62" y="235" fill="#38BDF8" font-family="Consolas, Menlo, monospace" font-size="10.5">quantum-biomed-research-engine</text>
+  <text x="62" y="253" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">GxP Clinical Synthesis • Dr. Helix</text>
+  <text x="62" y="269" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">VQE Molecular Screening (SMILES → ΔG)</text>
+
+  <rect x="50" y="290" width="228" height="84" rx="9" fill="#091222" stroke="#1E3A5F" stroke-width="1"/>
+  <text x="62" y="311" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Sovereign AI Hub (:8080)</text>
+  <text x="62" y="331" fill="#38BDF8" font-family="Consolas, Menlo, monospace" font-size="10.5">private-enterprise-ai-hub</text>
+  <text x="62" y="349" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Open WebUI • Apache Tika OCR RAG</text>
+  <text x="62" y="365" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">RAID-1 Sovereignty &amp; CAD Service</text>
+
+  <rect x="50" y="386" width="228" height="84" rx="9" fill="#091222" stroke="#1E3A5F" stroke-width="1"/>
+  <text x="62" y="407" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Quantum &amp; Coding Agents</text>
+  <text x="62" y="427" fill="#38BDF8" font-family="Consolas, Menlo, monospace" font-size="10.5">governed-quantum-agents (:30088)</text>
+  <text x="62" y="445" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Venus v2.0 Studio • Autonomous IDEs</text>
+  <text x="62" y="461" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Multi-Cloud K8s &amp; SAP S/4HANA Agents</text>
+
+  <line x1="292" y1="236" x2="332" y2="236" stroke="#38BDF8" stroke-width="1.8" marker-end="url(#arrowCyan)"/>
+  <line x1="292" y1="332" x2="332" y2="332" stroke="#38BDF8" stroke-width="1.8" marker-end="url(#arrowCyan)"/>
+  <line x1="292" y1="428" x2="332" y2="428" stroke="#38BDF8" stroke-width="1.8" marker-end="url(#arrowCyan)"/>
+
+  <!-- STAGE 2: AI OPERATIONS PORTAL — CENTERPIECE -->
+  <rect x="336" y="138" width="348" height="354" rx="14" fill="url(#coreGrad)" stroke="#10B981" stroke-width="2"/>
+  <rect x="336" y="138" width="348" height="42" rx="14" fill="#063229"/>
+  <text x="352" y="163" fill="#6EE7B7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0.6">2. AI OPERATIONS PORTAL (CORE)</text>
+  <rect x="576" y="148" width="96" height="20" rx="10" fill="#064E3B" stroke="#34D399" stroke-width="0.9"/>
+  <text x="624" y="162" text-anchor="middle" fill="#A7F3D0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700">OPEN-CORE + ENT</text>
+
+  <rect x="352" y="192" width="316" height="64" rx="8" fill="#07151F" stroke="#0F766E" stroke-width="1.1"/>
+  <text x="366" y="213" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Zero-Trust Privacy &amp; PHI/PII Token Vault</text>
+  <text x="366" y="232" fill="#5EEAD4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">HIPAA / GDPR / PCI Scrubbing • HMAC-SHA256 Markers</text>
+  <text x="366" y="248" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5">Bidirectional In-Perimeter Payload Re-Hydration</text>
+
+  <rect x="352" y="266" width="316" height="64" rx="8" fill="#07151F" stroke="#0F766E" stroke-width="1.1"/>
+  <text x="366" y="287" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Async Multi-Judge Consensus Council</text>
+  <text x="366" y="306" fill="#5EEAD4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">3x Concurrent GxP, Safety &amp; Injection Judges (asyncio)</text>
+  <text x="366" y="322" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5">Variance Penalty Scoring &amp; Automatic HITL Escalation</text>
+
+  <rect x="352" y="340" width="316" height="64" rx="8" fill="#07151F" stroke="#0F766E" stroke-width="1.1"/>
+  <text x="366" y="361" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Embedded LiteLLM FinOps &amp; Routing Plane</text>
+  <text x="366" y="380" fill="#5EEAD4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Per-Study &amp; Tenant Hard Budgets • Dual Gateways (:4000/:4001)</text>
+  <text x="366" y="396" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5">Latency-Aware Failover Across Local GPU &amp; Cloud APIs</text>
+
+  <rect x="352" y="414" width="316" height="64" rx="8" fill="#07151F" stroke="#0F766E" stroke-width="1.1"/>
+  <text x="366" y="435" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">AEGIS Copilot &amp; Hot-Swap Plugin Loader</text>
+  <text x="366" y="454" fill="#5EEAD4" font-family="Consolas, Menlo, monospace" font-size="10.5">ai-operations-portal + enterprise plugins</text>
+  <text x="366" y="470" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5">Executive &amp; CISO/SME Modes • Cloud Run / K3s / OpenShift</text>
+
+  <line x1="684" y1="236" x2="722" y2="236" stroke="#34D399" stroke-width="1.8" marker-end="url(#arrowEmerald)"/>
+  <line x1="684" y1="332" x2="722" y2="332" stroke="#34D399" stroke-width="1.8" marker-end="url(#arrowEmerald)"/>
+  <line x1="684" y1="428" x2="722" y2="428" stroke="#34D399" stroke-width="1.8" marker-end="url(#arrowEmerald)"/>
+
+  <!-- STAGE 3: HYBRID GPU & QUANTUM RUNTIME -->
+  <rect x="726" y="144" width="250" height="342" rx="14" fill="url(#cardGrad)" stroke="#8B5CF6" stroke-width="1.2" stroke-opacity="0.7"/>
+  <rect x="726" y="144" width="250" height="36" rx="14" fill="#231546"/>
+  <text x="742" y="167" fill="#C4B5FD" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.7">3. GPU &amp; QUANTUM RUNTIME</text>
+
+  <rect x="740" y="194" width="222" height="84" rx="9" fill="#091222" stroke="#3B276C" stroke-width="1"/>
+  <text x="752" y="215" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">NVIDIA NIM &amp; TensorRT-LLM</text>
+  <text x="752" y="235" fill="#C4B5FD" font-family="Consolas, Menlo, monospace" font-size="10.5">nvidia-nim-enterprise-patterns</text>
+  <text x="752" y="253" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Spot L4/H100 MIGs • &lt;25s Warm Cache</text>
+  <text x="752" y="269" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Triton Server • 60–70% GPU FinOps</text>
+
+  <rect x="740" y="290" width="222" height="84" rx="9" fill="#091222" stroke="#3B276C" stroke-width="1"/>
+  <text x="752" y="311" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Quantum Simulation Backends</text>
+  <text x="752" y="331" fill="#C4B5FD" font-family="Consolas, Menlo, monospace" font-size="10.5">Google Cirq &amp; IBM Qiskit Aer</text>
+  <text x="752" y="349" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">VQE Binding Affinity • p=2 QAOA</text>
+  <text x="752" y="365" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Grover Oracle • QSVM • OpenQASM 2.0</text>
+
+  <rect x="740" y="386" width="222" height="84" rx="9" fill="#091222" stroke="#3B276C" stroke-width="1"/>
+  <text x="752" y="407" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Sovereign &amp; Cloud LLM Pool</text>
+  <text x="752" y="427" fill="#C4B5FD" font-family="Consolas, Menlo, monospace" font-size="10.5">Air-Gapped vLLM / Hybrid VPC</text>
+  <text x="752" y="445" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Vertex AI (Gemini / GLM) • Codestral</text>
+  <text x="752" y="461" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">IBM watsonx.ai • DeepSeek • Llama</text>
+
+  <line x1="976" y1="236" x2="1012" y2="236" stroke="#FBBF24" stroke-width="1.8" marker-end="url(#arrowAmber)"/>
+  <line x1="976" y1="332" x2="1012" y2="332" stroke="#FBBF24" stroke-width="1.8" marker-end="url(#arrowAmber)"/>
+  <line x1="976" y1="428" x2="1012" y2="428" stroke="#FBBF24" stroke-width="1.8" marker-end="url(#arrowAmber)"/>
+
+  <!-- STAGE 4: CRYPTOGRAPHIC AUDIT & AIOPS -->
+  <rect x="1016" y="144" width="228" height="342" rx="14" fill="url(#cardGrad)" stroke="#F59E0B" stroke-width="1.2" stroke-opacity="0.7"/>
+  <rect x="1016" y="144" width="228" height="36" rx="14" fill="#3B2508"/>
+  <text x="1032" y="167" fill="#FDE68A" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.7">4. AUDIT LEDGER &amp; AIOPS</text>
+
+  <rect x="1030" y="194" width="200" height="84" rx="9" fill="#091222" stroke="#6B4411" stroke-width="1"/>
+  <text x="1042" y="215" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">SHA-256 Audit Ledger</text>
+  <text x="1042" y="235" fill="#FCD34D" font-family="Consolas, Menlo, monospace" font-size="10.5">FDA 21 CFR Part 11 Ready</text>
+  <text x="1042" y="253" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">HMAC Hash-Chained SQLite</text>
+  <text x="1042" y="269" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">HITL Medical E-Signatures</text>
+
+  <rect x="1030" y="290" width="200" height="84" rx="9" fill="#091222" stroke="#6B4411" stroke-width="1"/>
+  <text x="1042" y="311" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">AIOps &amp; Drift Telemetry</text>
+  <text x="1042" y="331" fill="#FCD34D" font-family="Consolas, Menlo, monospace" font-size="10.5">Prometheus • Grafana • Z-Score</text>
+  <text x="1042" y="349" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">TTFT, Latency &amp; Saturation</text>
+  <text x="1042" y="365" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Evidently AI &amp; MLflow 3.x</text>
+
+  <rect x="1030" y="386" width="200" height="84" rx="9" fill="#091222" stroke="#6B4411" stroke-width="1"/>
+  <text x="1042" y="407" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700">Zero-Trust Orchestration</text>
+  <text x="1042" y="427" fill="#FCD34D" font-family="Consolas, Menlo, monospace" font-size="10.5">K3s • OpenShift • Terraform</text>
+  <text x="1042" y="445" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Non-Root Containers (1001:0)</text>
+  <text x="1042" y="461" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Helm • Podman • Cloud Run</text>
+
+  <!-- BOTTOM REGULATORY & COMPLIANCE BAR -->
+  <rect x="36" y="508" width="1208" height="48" rx="12" fill="#0B1324" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="56" y="537" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">FRAMEWORKS ENFORCED IN CODE:</text>
+
+  <rect x="280" y="519" width="146" height="26" rx="6" fill="#062E24" stroke="#10B981" stroke-width="0.9"/>
+  <text x="353" y="536" text-anchor="middle" fill="#6EE7B7" font-family="Consolas, Menlo, monospace" font-size="10.5" font-weight="700">FDA 21 CFR Part 11</text>
+
+  <rect x="436" y="519" width="118" height="26" rx="6" fill="#062E24" stroke="#10B981" stroke-width="0.9"/>
+  <text x="495" y="536" text-anchor="middle" fill="#6EE7B7" font-family="Consolas, Menlo, monospace" font-size="10.5" font-weight="700">ICH E6(R3) GxP</text>
+
+  <rect x="564" y="519" width="140" height="26" rx="6" fill="#0C253F" stroke="#0EA5E9" stroke-width="0.9"/>
+  <text x="634" y="536" text-anchor="middle" fill="#7DD3FC" font-family="Consolas, Menlo, monospace" font-size="10.5" font-weight="700">HIPAA Safe Harbor</text>
+
+  <rect x="714" y="519" width="96" height="26" rx="6" fill="#231546" stroke="#8B5CF6" stroke-width="0.9"/>
+  <text x="762" y="536" text-anchor="middle" fill="#C4B5FD" font-family="Consolas, Menlo, monospace" font-size="10.5" font-weight="700">EU AI Act</text>
+
+  <rect x="820" y="519" width="120" height="26" rx="6" fill="#231546" stroke="#8B5CF6" stroke-width="0.9"/>
+  <text x="880" y="536" text-anchor="middle" fill="#C4B5FD" font-family="Consolas, Menlo, monospace" font-size="10.5" font-weight="700">ISO/IEC 42001</text>
+
+  <rect x="950" y="519" width="124" height="26" rx="6" fill="#3B2508" stroke="#F59E0B" stroke-width="0.9"/>
+  <text x="1012" y="536" text-anchor="middle" fill="#FDE68A" font-family="Consolas, Menlo, monospace" font-size="10.5" font-weight="700">NIST AI RMF 1.0</text>
+
+  <rect x="1084" y="519" width="144" height="26" rx="6" fill="#3B2508" stroke="#F59E0B" stroke-width="0.9"/>
+  <text x="1156" y="536" text-anchor="middle" fill="#FDE68A" font-family="Consolas, Menlo, monospace" font-size="10.5" font-weight="700">GDPR &amp; SOC2 Ready</text>
+</svg>
